@@ -42,7 +42,7 @@ export const ProjectCard = ({
 
 const Projects = () => {
 
-    const projects = [1, 2, 3];
+    const projects = [1];
   return (
     <div className="projects">
       <Typography variant="h3">Projects <AiOutlineProject /></Typography>
@@ -51,16 +51,34 @@ const Projects = () => {
            {projects.map((project, index) => (
             <ProjectCard
    
+    
     url="https://nextjs-crypto-api-dun.vercel.app/"
-    projectImage="https://tse3.mm.bing.net/th?id=OIP.3mMigJ4qYKbzgFMRDTUF-gHaFj&pid=Api&P=0"
+    projectImage="https://www.codavilla.com/static/1f9d142a9f66768e24870b9c9cd93115/db955/crypto-1.png"
     projectTitle="Bitcoin Cryptocurrency Finance Price Tracker App"
     description="Developed a Bitcoin Cryptocurrency Finance Price Tracker App in which we used Crypto API to 
     get the data.Users can search different bitcoin name and track there price using NextJS and ReactJs"
     technologies="NextJs, ReactJS, Crypto API"
   />
+
+  
+))}
+
+{projects.map((project, index) => (
+            <ProjectCard
+   
+    
+    url="https://mern-portfolio4.onrender.com"
+    projectImage="https://tse3.mm.bing.net/th?id=OIP.YhDJGxhx4HcypOCs5A5sLwHaE8&pid=Api&P=0"
+    projectTitle="A Full Stack Portfolio Website Using MERN Stack "
+    description="Developed an Portfolio Website in which I have shown my Work, Skills, Projects and Coding Profile"
+    technologies="MongoDB, Express, React JS, Node JS, Three JS "
+  />
+  
 ))}
     
     </div>
+    
+    
 
     <Typography variant="h3" style={{ font: "100 1.2rem 'Ubuntu Mono'" }}>
         All The Projects Shown Above Are Made By Me <FaRegSmileWink />

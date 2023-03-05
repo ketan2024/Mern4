@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { deleteYoutube, getUser } from "../../actions/user";
 import "./YoutubeCard.css";
 const YoutubeCard = ({
-  url = "https://youtube.com/6packprogrammer",
+  url = "https://auth.geeksforgeeks.org/user/ketansbarahate",
   title = "Title Here",
   image,
   isAdmin = false,
